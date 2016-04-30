@@ -57,12 +57,28 @@ header{
 .mainnav li a.active{
     color:aqua;
 }
+/*
 .mainnav li a:hover{
+    color:aqua;
+    letter-spacing:2px;
+    transition:2s all;
+    margin-left: -16px;
+}
+*/
+.fiveCharSpacing:hover{
     color:aqua;
     letter-spacing:2px;
     transition:2s all;
     margin-left: -10px;
 }
+
+.eightCharSpacing:hover{
+    color:aqua;
+    letter-spacing:2px;
+    transition:2s all;
+    margin-left: -16px;
+}
+
 .nav-btn{
     float:right;
     color:#05969b;
