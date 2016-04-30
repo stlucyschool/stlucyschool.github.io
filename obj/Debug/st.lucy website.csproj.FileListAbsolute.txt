@@ -1,0 +1,6 @@
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\bin\st.lucy website.dll.config
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\bin\st.lucy website.dll
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\bin\st.lucy website.pdb
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\obj\Debug\st.lucy website.csprojResolveAssemblyReference.cache
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\obj\Debug\st.lucy website.dll
+c:\users\prasa\documents\visual studio 2013\Projects\st.lucy website\st.lucy website\obj\Debug\st.lucy website.pdb

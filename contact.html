@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>st.lucy school</title>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width initial scale=1.0 maximum-scale=1.0"/>
+    <link href="contact.css" rel="stylesheet" />
+    <link href="nav.css" rel="stylesheet" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo">
+                <img src="images/logo.jpg" style="width:100px" height="90" />
+            </div>
+            <div class="icon">
+                <span class="nav-btn">MENU</span>
+            </div>
+            <div>
+                <nav>
+                    <ul class="mainnav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="staff.html">STAFF</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="contact.html" class="active">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="contact-title">
+            <h1>CONTACT</h1>
+        </div>
+        
+            <div class="message">
+                <h3>Please do find us through the details or the form below.</h3>
+            </div>
+        
+            <div class="details">
+                <h3>TELEPHONE: 01686-28648<br />EMAIL: lucyschool@gmail.com</h3>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79705.96320142243!2d0.49955131854534207!3d51.36976469262696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8cd0817b9b8dd%3A0xe439f2523e4d992b!2sGillingham%2C+Medway!5e0!3m2!1sen!2suk!4v1459950574429" width="1100" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
+            </div>
+       <div>
+           <div class="form">
+               <form method="post" action="email.php">
+                   <div class="input-data">
+                       <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter your first name" maxlength="20" required />
+                       <input type="text" class="form-control" id="lastname" name="lastname" placeholder="Enter your last name" maxlength="20" required />
+                       <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required /><br />
+                   </div>
+                   <div class="comment-data">
+                       <textarea class="comment" id="comment" name="comment">comment</textarea>
+                   </div>
+                   <button type="submit" class="btn">Submit</button>
+               </form>
+           </div>
+           <div class="submit-message">
+               <!--<?php
+               if($_REQUEST['msg'] == 'success'){
+               echo "<span style='color:#05969b;'>Email sent Suceesfully</span>";
+               
+               ?>-->
+           </div>
+           <footer>
+               <h4>&copy;St.Lucy School.All rights reserved|designed by gayathri</h4>
+           </footer>
+       
+        </div>
+</div>
+    <script>
+        $(document).ready(function () {
+            $(".icon").click(function () {
+                $(".mainnav").toggleClass("shownav");
+            });
+
+        });
+    </script>
+</body>
+</html>

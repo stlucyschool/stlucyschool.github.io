@@ -1,0 +1,285 @@
+﻿*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+}
+body {
+     padding:0;
+    margin:0;
+    font-family:Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    font-size:16px;
+    background-color:cornsilk;
+}
+.container{
+    width:100%;
+    height:auto;
+    background-color:#ffffff;
+}
+header{
+    height:90px;
+    /*background-color:#05969b;*/
+}
+.logo{
+    float:left;
+    margin-left:2%;
+}
+.schooltag{
+    color:#05969b;
+}
+.mainnav{
+    list-style-type:none;
+    float:right;
+    padding-top:30px;
+}
+.mainnav li{
+    display:inline;
+    padding:20px;
+}
+.mainnav li a{
+    text-decoration:none;
+    color:#05969b;
+    font-weight:bold;
+    font-size:20px;
+}
+.mainnav li a.active{
+    color:aqua;
+}
+.mainnav li a:hover{
+    color:aqua;
+    letter-spacing:2px;
+    transition:1s all;
+}
+.nav-btn{
+    float:right;
+    color:#05969b;
+    font-size:20px;
+    font-weight:bold;
+    display:none;
+    padding:0px 20px;
+    cursor:pointer;
+}
+.about{
+    width:100%;
+    height:100px;
+    background-color:#05969b;
+    border-radius:10px;
+    padding:30px;
+}
+h1{
+    text-align:center;
+    color:#ffffff;
+}
+article{
+    width:80%;
+    margin-left:10%;
+    margin-top:5%;
+    height:550px;
+    /*background-color:lightgoldenrodyellow;*/
+}
+.first{
+    float:left;
+    padding:20px;
+    width:50%;
+}
+.first img{
+    border:8px solid #05969b;
+    border-radius:10px;
+}
+.second{
+    float:right;
+    width:50%;
+}
+.second h2{
+    padding:10px;
+    text-align:center;
+    color:#05969b;
+}
+.second p{
+    padding:10px;
+    text-align:justify;
+    line-height:24px;
+}
+.testmonial{
+    width:100%;
+    height:auto;
+    /*margin-top:10%;*/
+    /*color:#05969b;*/
+}
+.testmonial h2{
+    text-align:center;
+    padding:20px;
+    color:#05969b;
+}
+.row{
+    height:450px;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: block;
+}
+[class*="col-"] {
+    float: left;
+    /*margin: 20px;*/
+    /*margin-left:9%;*/
+    padding:20px;
+}
+
+.col-3{
+   width:25%;
+   height:450px;
+   /*background-color:seagreen;*/
+   text-align:justify;
+   line-height:24px;
+   
+    
+}
+footer {
+    margin-top:10%;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #05969b;
+    color: white;
+    padding-top: 30px;
+}
+@media screen and (max-device-width: 480px) {
+   
+
+    header {
+        height: auto;
+        /*background-color:#05969b;*/
+    }
+
+   .mainnav{
+        display:none;
+        padding-top:0px;
+        /*float:none;
+        text-align:center;*/
+    }
+    .shownav{
+    display:block;
+    float:none;
+    text-align:center;
+}
+    .shownav li{
+    display:block;
+    padding:10px 0px;
+    border:2px solid #05969b;
+    border-radius:10px;
+}
+    .icon{
+        height:90px;
+        line-height:80px;
+     }
+    .nav-btn{
+        display:block;
+    }
+
+        article{
+            height:auto;
+        }
+    section img {
+        float: none;
+        padding: 0px;
+        width:100%;
+    }
+    .first{
+        float:none;
+        width:100%;
+    }
+    .second{
+        float:none;
+        width:100%;
+    }
+    /*.testmonial{
+        height:1880px;
+    }*/
+    .row{
+        height:1800px;
+    }
+    .col-3 {
+        width: 90%;
+        margin-left:5%;
+    }
+    
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 667px) {
+    header {
+        height: auto;
+        /*background-color:#05969b;*/
+    }
+       .mainnav{
+        display:none;
+        padding-top:0px;
+        /*float:none;
+        text-align:center;*/
+    }
+    .shownav{
+    display:block;
+    float:none;
+    text-align:center;
+}
+    .shownav li{
+    display:block;
+    padding:10px 0px;
+    border:2px solid #05969b;
+    border-radius:10px;
+}
+    .icon{
+        height:90px;
+        line-height:80px;
+     }
+    .nav-btn{
+        display:block;
+    }
+    
+        article{
+            height:auto;
+        }
+    section img {
+        float: none;
+        padding: 0px;
+        width:100%;
+    }
+    .first{
+        float:none;
+        width:100%;
+    }
+    .second{
+        float:none;
+        width:100%;
+    }
+    /*.testmonial{
+        height:1880px;
+    }*/
+    .row{
+        height:1800px;
+    }
+    .col-3 {
+        width: 90%;
+        margin-left:5%;
+    }
+
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    article{
+        height:auto;
+    }
+    .first {
+        float: none;
+        width: 100%;
+    }
+    .second{
+        float:none;
+        width:100%;
+    }
+    .row{
+        height:auto;
+    }
+    .col-3{
+        width:50%;
+    }
+}

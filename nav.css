@@ -1,0 +1,117 @@
+﻿header{
+    height:90px;
+    /*background-color:#05969b;*/
+}
+.logo{
+    float:left;
+    margin-left:2%;
+}
+.schooltag{
+    color:#05969b;
+}
+.mainnav{
+    list-style-type:none;
+    float:right;
+    padding-top:30px;
+}
+.mainnav li{
+    display:inline;
+    padding:20px;
+}
+.mainnav li a{
+    text-decoration:none;
+    color:#05969b;
+    font-weight:bold;
+    font-size:20px;
+}
+.mainnav li a.active{
+    color:aqua;
+}
+.mainnav li a:hover{
+    color:aqua;
+    letter-spacing:2px;
+    transition:1s all;
+}
+.nav-btn{
+    float:right;
+    color:#05969b;
+    font-size:20px;
+    font-weight:bold;
+    display:none;
+    padding:0px 20px;
+    cursor:pointer;
+}
+footer{
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    background-color: #05969b;
+    color: white;
+    padding-top: 30px;
+}
+ @media screen and (max-device-width: 480px) {
+    
+
+    header {
+        height: auto;
+        /*background-color:#05969b;*/
+    }
+
+       .mainnav{
+        display:none;
+        padding-top:0px;
+        /*float:none;
+        text-align:center;*/
+    }
+    .shownav{
+    display:block;
+    float:none;
+    text-align:center;
+}
+    .shownav li{
+    display:block;
+    padding:10px 0px;
+    border:2px solid #05969b;
+    border-radius:10px;
+}
+    .icon{
+        height:90px;
+        line-height:80px;
+     }
+    .nav-btn{
+        display:block;
+    }
+}
+@media only screen and (min-device-width: 480px) and (max-device-width: 667px) {
+     header {
+        height: auto;
+        /*background-color:#05969b;*/
+    }
+
+       .mainnav{
+        display:none;
+        padding-top:0px;
+        /*float:none;
+        text-align:center;*/
+    }
+    .shownav{
+    display:block;
+    float:none;
+    text-align:center;
+}
+    .shownav li{
+    display:block;
+    padding:10px 0px;
+    border:2px solid #05969b;
+    border-radius:10px;
+}
+    .icon{
+        height:90px;
+        line-height:80px;
+     }
+    .nav-btn{
+        display:block;
+    }
+
+}
+ 
